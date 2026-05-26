@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【安澤健康守護】清爽血液的超效對策：陪你一起為血管「抽油排毒」，找回身體的輕盈流速</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Google Fonts (Noto Sans TC) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 引入 FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- 引入 MathJax 處理 LaTeX 數學及科學符號 -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            DEFAULT: '#2a5599', // 搭配安澤LOGO的深藍色
+                            light: '#fff5f5', // 柔和溫暖的淡玫瑰粉色背景 (象徵血液紅潤與循環)
+                            accent: '#e11d48' // 血管紅/活力調
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #fff5f5; /* 柔和淡玫瑰粉色 */
+            background-image: radial-gradient(#fecdd3 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.97);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #2a5599, #e11d48);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @media print {
+            body { background: white; }
+            .glass-card { box-shadow: none; border: none; max-width: 100%; margin: 0; padding: 0; }
+            @page { margin: 0.5cm 0.7cm; size: A4 portrait; }
+            .no-print { display: none; }
+            /* 強制列印時內文字體至少 14pt，並縮減空隙以保證 A4 一頁 */
+            p, .print-text-large { font-size: 14pt !important; line-height: 1.4 !important; }
+            h3 { font-size: 15pt !important; }
+            h2 { font-size: 16pt !important; }
+            .text-xs { font-size: 10pt !important; }
+            .print-py-none { padding-top: 0px !important; padding-bottom: 0px !important; }
+            .print-my-small { margin-top: 3px !important; margin-bottom: 3px !important; }
+            .print-gap-small { gap: 8px !important; }
+            .print-p-small { padding: 8px !important; }
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased min-h-screen py-3 px-4 md:px-8">
+
+    <!-- 主容器 -->
+    <div class="max-w-4xl mx-auto glass-card rounded-3xl shadow-xl overflow-hidden">
+        
+        <!-- 頂部/標題區 -->
+        <header class="bg-white px-6 py-4 md:py-6 border-b-4 border-brand text-center relative print-py-none">
+            <!-- 裝飾背景 -->
+            <div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10 pointer-events-none">
+                <i class="fa-solid fa-heart-pulse absolute -right-10 -top-10 text-9xl text-brand"></i>
+                <i class="fa-solid fa-vial absolute left-5 bottom-5 text-6xl text-brand-accent"></i>
+            </div>
+
+            <!-- LOGO -->
+            <img src="安澤健康顧問%20Anzecare%20Health.png" alt="安澤健康顧問 Anzecare Health" class="h-11 md:h-13 mx-auto mb-2 relative z-10 object-contain">
+            
+            <p class="text-brand font-bold tracking-widest mb-1 text-base md:text-lg relative z-10">【安澤健康守護】</p>
+            <h1 class="text-2xl md:text-3.5xl font-black text-brand leading-tight relative z-10">
+                清爽血液的超效對策<br>
+                <span class="text-xl md:text-2.5xl mt-1.5 block text-gray-700 font-bold">陪你一起為血管「<span class="gradient-text">抽油排毒</span>」，找回身體的輕盈流速</span>
+            </h1>
+        </header>
+
+        <!-- 內容區 -->
+        <main class="p-5 md:p-8 space-y-5 print-p-small">
+
+            <!-- 我們的身體發生了什麼事？ -->
+            <section class="space-y-3">
+                <div class="flex items-center gap-3">
+                    <div class="bg-brand text-white w-9 h-9 rounded-full flex items-center justify-center text-lg shadow-md shrink-0">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-800">我們的身體發生了什麼事？</h2>
+                </div>
+                
+                <p class="text-gray-700 leading-relaxed text-base md:text-lg font-medium print-text-large">
+                    在忙碌的職場中，為了應酬或舒壓，偶爾吃頓大餐、喝杯手搖飲或吃宵夜，都是我們對抗壓力的真實寫照。如果把血管比喻為繁忙的<strong>「體內高速公路」</strong>，血脂肪家族的成員們在日常中各自扮演著非常生動的角色：
+                </p>
+
+                <!-- 三大血脂指標卡片 -->
+                <div class="grid md:grid-cols-3 gap-4 print-gap-small">
+                    <!-- LDL -->
+                    <div class="bg-red-50/80 border-t-4 border-red-500 p-4 rounded-b-xl shadow-sm print-p-small">
+                        <div class="flex items-center gap-2 mb-1.5 text-red-800">
+                            <i class="fa-solid fa-truck-ramp-box text-xl"></i>
+                            <h3 class="text-base font-bold">低密度膽固醇 $\text{LDL}$</h3>
+                        </div>
+                        <h4 class="text-sm font-black text-red-700 mb-1">【血管裡的垃圾車】</h4>
+                        <p class="text-gray-700 text-sm leading-relaxed font-medium print-text-large">
+                            負責把脂肪營養運送到全身，但若數量太多，垃圾車就會沿街邊走邊漏，將脂肪垃圾隨意丟棄在血管壁上，導致血管變窄、交通大塞車。
+                        </p>
+                    </div>
+
+                    <!-- HDL -->
+                    <div class="bg-emerald-50/80 border-t-4 border-emerald-500 p-4 rounded-b-xl shadow-sm print-p-small">
+                        <div class="flex items-center gap-2 mb-1.5 text-emerald-800">
+                            <i class="fa-solid fa-broom text-xl"></i>
+                            <h3 class="text-base font-bold">高密度膽固醇 $\text{HDL}$</h3>
+                        </div>
+                        <h4 class="text-sm font-black text-emerald-700 mb-1">【血管裡的清道夫】</h4>
+                        <p class="text-gray-700 text-sm leading-relaxed font-medium print-text-large">
+                            開著回收車在公路上巡邏的神隊友！專門把被垃圾車亂丟的脂肪垃圾載回肝臟工廠報廢。這個指標越高，代表血管被清掃得越乾淨。
+                        </p>
+                    </div>
+
+                    <!-- TG -->
+                    <div class="bg-amber-50/80 border-t-4 border-amber-500 p-4 rounded-b-xl shadow-sm print-p-small">
+                        <div class="flex items-center gap-2 mb-1.5 text-amber-800">
+                            <i class="fa-solid fa-box-tissue text-xl"></i>
+                            <h3 class="text-base font-bold">三酸甘油脂 $\text{TG}$</h3>
+                        </div>
+                        <h4 class="text-sm font-black text-amber-700 mb-1">【河道裡的備用油便當】</h4>
+                        <p class="text-gray-700 text-sm leading-relaxed font-medium print-text-large">
+                            吃太多甜食、澱粉、炸物或喝酒後，身體來不及燒完而轉化的油脂便當。當堆滿河道時，血液就會像濃稠麻油，高壓又混濁。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 核心生活處方 -->
+            <section class="space-y-3">
+                <div class="flex items-center gap-3">
+                    <div class="bg-brand-accent text-white w-9 h-9 rounded-full flex items-center justify-center text-lg shadow-md">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-800">核心生活處方：三個減脂小習慣，我們一起來練習！</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-4 print-gap-small">
+                    <!-- 飲食平衡 -->
+                    <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between hover:-translate-y-0.5 transition duration-300 print-p-small">
+                        <div>
+                            <div class="bg-rose-50 text-rose-600 w-11 h-11 mx-auto rounded-full flex items-center justify-center text-xl mb-2">
+                                <i class="fa-solid fa-fish"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-800 text-center mb-1">🐟 飲食：換好油、截斷來源</h3>
+                            <p class="text-gray-700 text-sm md:text-base leading-relaxed font-medium print-text-large">
+                                <strong>召喚好油神隊友：</strong>多吃秋刀魚、鮭魚或烹調改用橄欖油，優質脂肪是血管天然疏通劑。<br>
+                                <strong>精緻糖酒減半：</strong>手搖飲和酒精是浮油燃料庫，次數減半即可截斷補給線。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 運動步伐 -->
+                    <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between hover:-translate-y-0.5 transition duration-300 print-p-small">
+                        <div>
+                            <div class="bg-emerald-50 text-emerald-600 w-11 h-11 mx-auto rounded-full flex items-center justify-center text-xl mb-2">
+                                <i class="fa-solid fa-person-running"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-800 text-center mb-1">🏃 運動：主動召喚清道夫</h3>
+                            <p class="text-gray-700 text-sm md:text-base leading-relaxed font-medium print-text-large">
+                                <strong>流汗是在做環保：</strong>每週累積 <strong>150 分鐘</strong>的溫和快走、單車或慢跑。<br>
+                                <strong>唯一主動增加法：</strong>有氧運動是醫學上唯一能提升好膽固醇（清道夫回收車）的方法，多動多清垃圾！
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 纖維幫手 -->
+                    <div class="bg-white p-4 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between hover:-translate-y-0.5 transition duration-300 print-p-small">
+                        <div>
+                            <div class="bg-amber-50 text-amber-600 w-11 h-11 mx-auto rounded-full flex items-center justify-center text-xl mb-2">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-800 text-center mb-1">🥗 纖維：最強腸道吸塵器</h3>
+                            <p class="text-gray-700 text-sm md:text-base leading-relaxed font-medium print-text-large">
+                                <strong>多吃原形蔬菜：</strong>燕麥、黑木耳、菇類和深綠蔬菜含有豐富水溶性纖維。<br>
+                                <strong>腸道物理吸油：</strong>纖維在腸道如同具黏性的吸塵器，能在油脂被吸收前直接打包帶走。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 建議就醫與諮詢管道 -->
+            <section class="grid md:grid-cols-2 gap-4 pt-1 print-gap-small">
+                <!-- 建議就醫科別 -->
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-200 flex flex-col justify-center print-p-small">
+                    <h3 class="text-base md:text-lg font-bold text-gray-800 mb-1.5 flex items-center gap-2">
+                        <i class="fa-solid fa-stethoscope text-brand"></i> 建議就醫 / 追蹤科別
+                    </h3>
+                    <p class="text-gray-600 text-xs md:text-sm mb-2 leading-tight">
+                        若調整作息 $3 \sim 6$ 個月後數據仍不小心超標（總膽固醇 $\ge 200\text{ mg/dL}$ 或三酸甘油脂 $\ge 150\text{ mg/dL}$），可以安排至：
+                    </p>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="bg-brand text-white px-3 py-1 rounded-full text-sm font-semibold shadow-sm">家庭醫學科</span>
+                        <span class="bg-brand text-white px-3 py-1 rounded-full text-sm font-semibold shadow-sm">新陳代謝科</span>
+                        <span class="bg-brand text-white px-3 py-1 rounded-full text-sm font-semibold shadow-sm">心臟內科</span>
+                    </div>
+                </div>
+
+                <!-- 安心諮詢管道 -->
+                <div class="bg-brand text-white p-4 rounded-2xl shadow-lg relative overflow-hidden print-p-small">
+                    <div class="absolute -right-4 -bottom-4 opacity-10">
+                        <i class="fa-solid fa-comments text-7xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-1 flex items-center gap-2 relative z-10 text-base md:text-lg">
+                        <i class="fa-solid fa-heart-circle-check"></i> 血管清爽了，生活就輕鬆了
+                    </h3>
+                    <p class="text-brand-light text-sm md:text-base leading-relaxed relative z-10 font-medium print-text-large">
+                        我是您的臨場服務護理師，隨時都在。不論是想看看外食便當怎麼挑，還是想聊聊報告上的數字，都歡迎隨時來聊聊，我們一起找回最純淨的身體能量！
+                    </p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- 頁尾/免責聲明 -->
+        <footer class="bg-gray-100 py-3 px-6 text-center border-t border-gray-200 flex flex-col items-center">
+            <!-- 頁尾 LOGO -->
+            <img src="安澤健康顧問%20Anzecare%20Health.png" alt="安澤健康顧問 Anzecare Health" class="h-8 md:h-9 mb-2 object-contain opacity-75">
+            
+            <p class="text-xs md:text-sm text-gray-600 flex items-center justify-center gap-2 font-medium">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                免責聲明：本單張僅供健康衛教參考，具體診斷、用藥與治療請遵照醫囑。
+            </p>
+            <p class="text-xs text-gray-400 mt-1">&copy; 安澤健康顧問 Anzecare Health Consulting</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
